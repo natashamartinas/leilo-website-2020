@@ -1,0 +1,115 @@
+html,body {
+    overflow-x: hidden;
+}
+h1 {
+    color: #6090AA;
+    font-family: 'Montserrat', sans-serif; font-weight:900; font-style:bold;
+    font-size: 65px;
+}
+
+p {
+    color: #6090AA;
+    font-family: 'Montserrat', sans-serif; font-weight:400;
+    font-size: 18px;
+}
+
+
+#header {
+    padding: 20px;
+    text-align: center;
+}
+
+#merch-collection {
+    background-image: linear-gradient(#DFF5FE, #FFFFFF);
+    padding: 150px; 
+    text-align: center;
+}
+
+#contact-us {
+    width: 100%;
+}
+.container-fluid {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.col {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.marquee-background{
+    background-color: #FFFFFF;
+    border: 2px solid #6090AA;
+}
+
+.marquee {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-style: italic;
+}
+
+.marquee span {
+  display: inline-block;
+  width: max-content;
+
+  padding-left: 100%;
+  /* show the marquee just outside the paragraph */
+  will-change: transform;
+  animation: marquee 45s linear infinite;
+}
+
+.marquee span:hover {
+  animation-play-state: paused
+}
+
+
+@keyframes marquee {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+
+.individual-merch{
+    height: 300px;
+    padding: 20px;
+}
+
+
+/* Respect user preferences about animations */
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee span {
+    animation-iteration-count: 1;
+    animation-duration: 0.01; 
+    /* instead of animation: none, so an animationend event is 
+     * still available, if previously attached.
+     */
+    width: auto;
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (max-width: 48em) {
+    #header h1 {
+        font-size: 45px;
+    }
+
+}
+@media screen and (min-width: 48em) and (max-width: 58em) {
+    #header h1 {
+        font-size: 50px;
+    }
+
+
+}
+@media screen and (min-width: 58em) and (max-width: 73em) {
+    #header h1 {
+        font-size: 50px;
+    }
+
+}
+

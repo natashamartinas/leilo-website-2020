@@ -1,0 +1,305 @@
+.modal-rewards {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2000; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0,0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-rewards-mobile {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2000; /* Sit on top */
+  padding-top: 70px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0,0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.btn-warning {
+  margin-left: 5px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height:0px;
+  border: 2px solid rgba(240, 173, 78, 0);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  padding: 2px;
+  height: 30px;
+  width: 30px;
+}
+
+.lemon-info{
+  color: #F3BE44;
+}
+.blackberry-info{
+  color: #55488D;
+}
+.raspberry-info{
+  color: #AF505D;
+}
+.tango-info{
+  color: #D88924;
+}
+.sunset-info{
+  color: #0879A5;
+}
+.lite-info{
+  color: #CD9B00;
+}
+
+i.fa.fa-info-circle{
+  height: 20px;
+  width: 20px;
+}
+
+.btn-warning:hover {
+  color: rgb(0,0,0);
+  background: rgb(240, 173, 78, 0);
+  border: 2px solid rgba(240, 173, 78, 0);
+}
+.btn-warning:focus {
+  color: rgb(0,0,0);
+  background: rgb(240, 173, 78, 0) !important;
+  border: 2px solid rgba(240, 173, 78, 0) !important;
+}
+.btn-warning:active {
+  color: rgb(0,0,0);
+  background: rgb(240, 173, 78, 0) !important;
+  border: 2px solid rgba(240, 173, 78, 0) !important;
+}
+
+.btn-warning:focus,
+.btn-warning:active{
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active, {
+  color: rgb(0,0,0);
+  background: rgb(240, 173, 78, 0);
+  border: 2px solid rgba(240, 173, 78, 0);
+}
+
+/* Modal Content */
+.modal-rewards-content {
+  background-color: rgb(0,0,0,0) !important;
+  margin: auto;;
+  width: 750px;
+  border: 0px;
+}
+
+/* Modal Content */
+.modal-rewards-content-mobile {
+  background-color: rgb(0,0,0,0) !important;
+  margin: auto;;
+  width: 270px;
+  border: 0px;
+}
+
+/* The Close Button */
+#close-button {
+  padding-left: 10px;
+  display: flex;
+  z-index: 2500;
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close-button:hover,
+#close-button:focus {
+  z-index: 2500;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Close Button */
+#close-button-mobile {
+  position: fixed;
+  padding-left: 5px;
+  display: flex;
+  z-index: 10000000;
+  color: #aaaaaa;
+  float: left;
+  font-size: 28px;
+  font-weight: bold;
+  width: 270px;
+}
+
+#close-button-mobile:hover,
+#close-button-mobile:focus {
+  z-index: 10000000;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.fadein {
+    position:absolute;
+}
+.fade-rewards {
+    position:absolute;
+    -webkit-animation-name: cf7FadeInOut;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration:10.5s;
+    animation-name: cf7FadeInOut;
+    animation-iteration-count: infinite;
+    animation-duration:10.5s;
+}
+
+@-webkit-keyframes cf7FadeInOut {
+  0% {
+  opacity:1;
+  }
+  5% {
+    opacity:1;
+  }
+  15% {
+    opacity:0;
+  }
+  90% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@keyframes cf7FadeInOut {
+  0% {
+    opacity:1;
+  }
+  5% {
+    opacity:1;
+  }
+  15% {
+    opacity:0;
+  }
+  90% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.fadein-mobile {
+    position:absolute;
+    z-index: 2500;
+}
+.fade-rewards-mobile {
+    position:absolute;
+    -webkit-animation-name: cf7FadeInOut-mobile;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration:10.5s;
+    animation-name: cf7FadeInOut-mobile;
+    animation-iteration-count: infinite;
+    animation-duration:10.5s;
+    z-index: 2500;
+}
+
+@-webkit-keyframes cf7FadeInOut-mobile {
+  0% {
+  opacity:1;
+  }
+  5% {
+    opacity:1;
+  }
+  15% {
+    opacity:0;
+  }
+  90% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@keyframes cf7FadeInOut-mobile {
+  0% {
+    opacity:1;
+  }
+  5% {
+    opacity:1;
+  }
+  15% {
+    opacity:0;
+  }
+  90% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+#rewards-image-1 {
+    -webkit-animation-delay: -9s;
+    width: 750px;
+}
+#rewards-image-2 {
+    -webkit-animation-delay: -7.5s;
+    width: 750px;
+}
+#rewards-image-3 {
+    -webkit-animation-delay: -6s;
+    width: 750px;
+}
+#rewards-image-4 {
+    -webkit-animation-delay: -4.5s;
+    width: 750px;
+}
+#rewards-image-5 {
+    -webkit-animation-delay: -3s;
+    width: 750px;
+}
+#rewards-image-6 {
+    -webkit-animation-delay: -1.5s;
+    width: 750px;
+}
+#rewards-image-7 {
+    width: 750px;
+}
+
+
+#rewards-mobile-image-1 {
+    -webkit-animation-delay: -9s;
+    width: 270px;
+}
+#rewards-mobile-image-2 {
+    -webkit-animation-delay: -7.5s;
+    width: 270px;
+}
+#rewards-mobile-image-3 {
+    -webkit-animation-delay: -6s;
+    width: 270px;
+}
+#rewards-mobile-image-4 {
+    -webkit-animation-delay: -4.5s;
+    width: 270px;
+}
+#rewards-mobile-image-5 {
+    -webkit-animation-delay: -3s;
+    width: 270px;
+}
+#rewards-mobile-image-6 {
+    -webkit-animation-delay: -1.5s;
+    width: 270px;
+}
+#rewards-mobile-image-7 {
+    width: 270px;
+}

@@ -1,0 +1,69 @@
+#shop-page {
+    background-color: #FFE9A3;
+    padding: 150px; 
+    padding-top:250px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; font-weight:900; font-style:bold;
+    font-size: 70px;
+}
+
+#shop-leilo-title{
+	color: #6090AA;
+	font-family: 'Montserrat', sans-serif; font-weight:800; font-style:bold;
+    font-size: 35px;
+    margin-bottom: -20px;
+}
+
+a.shop-links{
+	color: #6090AA;
+}
+
+a.shop-links:hover{
+	color: #FFFFFF;
+}
+
+#circle{
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 509px) {
+    #circle{
+    	display:none;
+    }
+    #shop-leilo-title{
+	    font-size: 25px;
+	    margin-bottom: 0px;
+	}
+}
+
+@media screen and (max-width: 48em) {
+    #shop-page {
+	    padding: 50px; 
+	    padding-top:150px;
+	    padding-bottom: 50px;
+	    text-align: center;
+	    font-size: 50px;
+	    line-height: 1.2em;
+	}
+
+}
+@media screen and (min-width: 48em) and (max-width: 58em) {
+    #shop-page {
+	    padding: 70px; 
+	    padding-top:170px;
+	    padding-bottom: 70px;
+	    text-align: center;
+	    font-size: 60px;
+	}
+
+}
+@media screen and (min-width: 58em) and (max-width: 73em) {
+    #shop-page {
+	    padding: 100px; 
+	    padding-top:200px;
+	    padding-bottom: 100px;
+	    text-align: center;
+	    font-size: 65px;
+	}
+}

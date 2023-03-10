@@ -1,0 +1,62 @@
+html,body {
+    overflow-x: hidden;
+}
+h1 {
+    color: #AF505D;
+    font-family: 'Montserrat', sans-serif; font-weight:900; font-style:bold;
+    font-size: 65px;
+}
+
+p {
+    color: #AF505D;
+    font-family: 'Montserrat', sans-serif; font-weight:400;
+    font-size: 18px;
+}
+
+
+#header {
+    padding: 50px;
+    text-align: center;
+}
+
+#store-locator {
+    background-image: linear-gradient(#FFFFFF, #FF94A4);
+    padding: 150px; 
+    text-align: center;
+}
+
+#contact-us {
+    width: 100%;
+}
+.container-fluid {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.col {
+    padding: 30px;
+    padding-left: 100px;
+}
+
+
+
+@media screen and (max-width: 48em) {
+    #header h1 {
+        font-size: 45px;
+    }
+
+}
+@media screen and (min-width: 48em) and (max-width: 58em) {
+    #header h1 {
+        font-size: 50px;
+    }
+
+
+}
+@media screen and (min-width: 58em) and (max-width: 73em) {
+    #header h1 {
+        font-size: 50px;
+    }
+
+}
+

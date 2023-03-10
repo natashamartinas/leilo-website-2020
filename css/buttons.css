@@ -1,0 +1,843 @@
+.btn-leilo {
+    background-color: #AAEBFF;
+    margin-top: 30px;
+    padding: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+    font-size: 30px;
+    text-shadow: 0px 2px 4px #68B0C5;
+
+    box-shadow: -10px 10px #68B0C5;
+}
+
+    @media screen and (max-width: 35em) {
+        .btn-mail-signup {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+
+.btn-leilo:hover {
+    background-color: #79D6F2;
+    color: #0D5B6E;
+
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: -10px 12px #68B0C5;
+    transition: ease-in 200ms;
+}
+
+.btn-leilo-earthday {
+    margin-top: 30px;
+    padding: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+    font-size: 30px;
+
+    animation: earth-week-button 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes earth-week-button {
+    from {
+        background-color: #AAEBFF;
+        box-shadow: -10px 10px #68B0C5;
+        text-shadow: 0px 2px 4px #68B0C5;
+    }
+    to {
+        background-color: #DAEEDA;
+        box-shadow: -10px 10px #8FA98F;
+        text-shadow: 0px 2px 4px #536A53;
+    }
+}
+
+
+.btn-leilo-earthday:hover {
+    background-color: #B1DBB1;
+    color: #2D3C2D;
+
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: -10px 12px #8FA98F;
+    transition: ease-in 200ms;
+}
+
+.btn-leilo-checkout {
+    background-color: #AAEBFF;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+    font-size: 25px;
+    text-shadow: 0px 2px 4px #68B0C5;
+
+    box-shadow: -10px 10px #68B0C5;
+}
+
+.btn-leilo-checkout:hover {
+    background-color: #79D6F2;
+    color: #0D5B6E;
+
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: -10px 12px #68B0C5;
+    transition: ease-in 200ms;
+}
+
+.btn-buy-now {
+    background-color: #FFECC0;
+    
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 60px;
+
+    height: 80px;
+    min-width: 230px;
+    z-index: 10;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+    font-size: 30px;
+    text-shadow: 0px 0px 0px #EED6A0;
+    color: #F3BE44;
+
+    box-shadow: -10px 10px #F3BE44;
+}
+
+
+.btn-buy-now:hover {
+    background-color: #f3c968;
+    color: #cea138;
+
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: -10px 12px #c09736;
+    transition: ease-in 200ms;
+}
+
+.btn-buy-now.raspberry {
+    background-color: #FFBBC5;
+    
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 60px;
+
+    height: 80px;
+    min-width: 230px;
+
+    color: #AF505D;
+    font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+    font-size: 30px;
+    text-shadow: 0px 0px 0px #AF505D;
+
+
+    box-shadow: -10px 10px #AF505D;
+}
+
+.btn-buy-now:hover.raspberry {
+    background-color: #cf949d;
+
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: -10px 12px #AF505D;
+    transition: ease-in 200ms;
+}
+
+.btn-buy-now.blackberry {
+    background-color: #C6C5FF;
+    
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 60px;
+
+    height: 80px;
+    min-width: 230px;
+
+    color: #55488D;
+    font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+    font-size: 30px;
+    text-shadow: 0px 0px 0px #55488D;
+
+    box-shadow: -10px 10px #55488D;
+}
+
+
+.btn-buy-now:hover.blackberry {
+    background-color: #aeacd4;
+
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: -10px 12px #55488D;
+    transition: ease-in 200ms;
+}
+
+.btn-buy-now.tango {
+    background-color: #FFD49D;
+    
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 60px;
+
+    height: 80px;
+    min-width: 230px;
+
+    color: #D88924;
+    font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+    font-size: 30px;
+    text-shadow: 0px 0px 0px #D88924;
+
+    box-shadow: -10px 10px #D88924;
+}
+
+.btn-buy-now:hover.tango {
+    background-color: #e0cdb4;
+
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: -10px 12px #D88924;
+    transition: ease-in 200ms;
+}
+
+.btn-buy-now.login {
+    background-color: #fff2e3;
+    
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px;
+    margin-top: 10px;
+
+    height: 80px;
+    min-width: 230px;
+
+    color: #D88924;
+    font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+    font-size: 30px;
+    text-shadow: 0px 2px 2px #D88924;
+
+    box-shadow: -10px 10px #D88924;
+}
+
+.btn-buy-now:hover.login {
+    background-color: #e0cdb4;
+
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: -10px 12px #D88924;
+    transition: ease-in 200ms;
+}
+
+.btn-buy-now.sunset {
+    background-color: #8BE0FF;
+    
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 60px;
+
+    height: 80px;
+    min-width: 230px;
+
+    color: #0879A5;
+    font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+    font-size: 30px;
+    text-shadow: 0px 0px 0px #0879A5;
+
+    box-shadow: -10px 10px #0879A5;
+}
+
+.btn-buy-now:hover.sunset {
+    background-color: #aeacd4;
+
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: -10px 12px #55488D;
+    transition: ease-in 200ms;
+}
+
+.btn-buy-now.lite {
+    background-color: #f4eaca;
+    
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 60px;
+
+    height: 80px;
+    min-width: 230px;
+
+    color: #CD9B00;
+    font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+    font-size: 30px;
+    text-shadow: 0px 0px 0px #CD9B00;
+
+
+    box-shadow: -10px 10px #CD9B00;
+}
+
+.btn-buy-now:hover.lite {
+    background-color: #EFE2B7;
+
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: -10px 12px #D4AF37;
+    transition: ease-in 200ms;
+}
+
+.btn-buy-now.merch {
+    background-color: #C0DBEA;
+    
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 60px;
+
+    height: 80px;
+    min-width: 230px;
+
+    color: #6090AA;
+    font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+    font-size: 30px;
+    text-shadow: 0px 0px 0px #6090AA;
+
+    box-shadow: -10px 10px #6090AA;
+}
+
+.btn-buy-now:hover.merch {
+    background-color: #93BED5;
+
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: -10px 12px #557E94;
+    transition: ease-in 200ms;
+}
+    @media screen and (max-width: 23em) {
+        .btn-buy-now {
+            height: 50px;
+            min-width: 150px;
+            margin-left: 15px;
+            margin-top: 25px;
+            font-size: 15px;
+        }
+        .btn-buy-now.blackberry {
+            height: 50px;
+            min-width: 150px;
+            margin-left: 15px;
+            margin-top: 25px;
+            font-size: 15px;
+        }
+        .btn-buy-now.raspberry {
+            height: 50px;
+            min-width: 150px;
+            margin-left: 15px;
+            margin-top: 25px;
+            font-size: 15px;
+        }
+        .btn-buy-now.tango {
+            height: 50px;
+            min-width: 150px;
+            margin-left: 15px;
+            margin-top: 25px;
+            font-size: 15px;
+        }
+        .btn-buy-now.sunset {
+            height: 50px;
+            min-width: 150px;
+            margin-left: 15px;
+            margin-top: 25px;
+            font-size: 15px;
+        }
+        .btn-buy-now.lite {
+            height: 50px;
+            min-width: 150px;
+            margin-left: 15px;
+            margin-top: 25px;
+            font-size: 15px;
+        }
+        .btn-buy-now.merch {
+            height: 50px;
+            min-width: 150px;
+            margin-left: 15px;
+            margin-top: 25px;
+            font-size: 15px;
+        }
+        .btn-buy-now.login {
+            height: 50px;
+            min-width: 150px;
+            margin-left: 0px;
+            margin-top: 25px;
+            font-size: 15px;
+        }
+
+    }
+
+    @media screen and (min-width: 23em) and (max-width: 35em) {
+        .btn-buy-now {
+            height: 60px;
+            min-width: 150px;
+            margin-left: 30px;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .btn-buy-now.blackberry {
+            height: 60px;
+            min-width: 150px;
+            margin-left: 30px;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .btn-buy-now.raspberry {
+            height: 60px;
+            min-width: 150px;
+            margin-left: 30px;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .btn-buy-now.tango {
+            height: 60px;
+            min-width: 150px;
+            margin-left: 30px;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .btn-buy-now.sunset {
+            height: 60px;
+            min-width: 150px;
+            margin-left: 30px;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .btn-buy-now.lite {
+            height: 60px;
+            min-width: 150px;
+            margin-left: 30px;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .btn-buy-now.merch {
+            height: 60px;
+            min-width: 150px;
+            margin-left: 30px;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .btn-buy-now.login {
+            height: 60px;
+            min-width: 150px;
+            margin-left: 0px;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+
+    }
+    .btn-leilo-blue {
+        background-color: #68B0C5;
+        margin-top: 30px;
+        padding: 15px;
+        padding-left: 70px;
+        padding-right: 70px;
+
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+        font-size: 30px;
+        text-shadow: 0px 2px 4px #1F5C79;
+
+        border: solid 5px;
+        border-radius: 30px;
+    }
+
+    .btn-leilo-blue:hover {
+        background-color: #79D6F2;
+        color: #FFF;
+
+        border: solid 5px;
+        border-radius: 30px;
+        transition: ease-in 200ms;
+        transition: ease-out 200ms;
+    }
+
+    .btn-leilo-red {
+        background-color: #F8A6A6;
+        margin-top: 30px;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+        font-size: 30px;
+        text-shadow: 0px 2px 4px #9A5454;
+
+        border: solid 5px;
+        border-radius: 30px;
+        margin-top: 0px;
+    }
+
+    .btn-leilo-red:hover {
+        background-color: #EB6C6C;
+        color: #FFF;
+
+        border: solid 5px;
+        border-radius: 30px;
+        transition: ease-in 200ms;
+        transition: ease-out 200ms;
+    }
+
+    .btn-leilo-flavor {
+        background-color: #68B0C5;
+        margin-top: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        width: 230px;
+
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif; font-weight:600; font-style:normal;
+        font-size: 15px;
+        text-shadow: 0px 2px 4px #1F5C79;
+
+        border: solid 5px;
+        border-radius: 30px;
+        margin-top:0px;
+    }
+
+    .btn-leilo-flavor:hover {
+        background-color: #79D6F2;
+        color: #FFF;
+
+        border: solid 5px;
+        border-radius: 30px;
+        transition: ease-in 200ms;
+        transition: ease-out 200ms;
+    }
+
+    .btn-leilo-subscribe-blackberry {
+        background-color: #C6C5FF;
+        margin-top: 30px;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        width: 250px;
+
+        color: #55488D;
+        font-family: 'Montserrat', sans-serif; font-weight:600; font-style:normal;
+        font-size: 20px;
+        text-shadow: 0px 0px 0px #55488D;
+
+        border: solid 5px;
+        border-radius: 30px;
+        margin-top:0px;
+        border-color: #55488D;
+    }
+
+    .btn-leilo-subscribe-blackberry:hover {
+        background-color: #d7d6ff;
+        color: #55488D;
+
+        border: solid 5px;
+        border-radius: 30px;
+        transition: ease-in 200ms;
+        transition: ease-out 200ms;
+        border-color: #55488D;
+    }
+
+    .btn-leilo-subscribe-lemon {
+        background-color: #FFECC0;
+        margin-top: 30px;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        width: 250px;
+
+        color: #F3BE44;
+        font-family: 'Montserrat', sans-serif; font-weight:600; font-style:normal;
+        font-size: 20px;
+        text-shadow: 0px 0px 0px #EED6A0;
+
+        border: solid 5px;
+        border-radius: 30px;
+        margin-top:0px;
+        border-color: #F3BE44;
+    }
+
+    .btn-leilo-subscribe-lemon:hover {
+        background-color: #fff5de;
+        color: #F3BE44;
+
+        border: solid 5px;
+        border-radius: 30px;
+        transition: ease-in 200ms;
+        transition: ease-out 200ms;
+        border-color: #F3BE44;
+    }
+
+    .btn-leilo-subscribe-raspberry {
+        background-color: #FFBBC5;
+        margin-top: 30px;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        width: 250px;
+
+        color: #AF505D;
+        font-family: 'Montserrat', sans-serif; font-weight:600; font-style:normal;
+        font-size: 20px;
+        text-shadow: 0px 0px 0px #AF505D;
+
+        border: solid 5px;
+        border-radius: 30px;
+        margin-top:0px;
+        border-color: #AF505D;
+    }
+
+    .btn-leilo-subscribe-raspberry:hover {
+        background-color: #ffd9de;
+        color: #AF505D;
+
+        border: solid 5px;
+        border-radius: 30px;
+        transition: ease-in 200ms;
+        transition: ease-out 200ms;
+        border-color: #AF505D;
+    }
+
+    .btn-leilo-subscribe-tango {
+        background-color: #FFD49D;
+        margin-top: 30px;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        width: 250px;
+
+        color: #D88924;
+        font-family: 'Montserrat', sans-serif; font-weight:600; font-style:normal;
+        font-size: 20px;
+        text-shadow: 0px 0px 0px #D88924;
+
+        border: solid 5px;
+        border-radius: 30px;
+        margin-top:0px;
+        border-color: #D88924;
+    }
+
+    .btn-leilo-subscribe-tango:hover {
+        background-color: #ffe2bd;
+        color: #D88924;
+
+        border: solid 5px;
+        border-radius: 30px;
+        transition: ease-in 200ms;
+        transition: ease-out 200ms;
+        border-color: #D88924;
+    }
+
+    .btn-leilo-subscribe-lite {
+        background-color: #f4eaca;
+        margin-top: 30px;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        width: 250px;
+
+        color: #CD9B00;
+        font-family: 'Montserrat', sans-serif; font-weight:600; font-style:normal;
+        font-size: 20px;
+        text-shadow: 0px 0px 0px #CD9B00;
+
+        border: solid 5px;
+        border-radius: 30px;
+        margin-top:0px;
+        border-color: #CD9B00;
+    }
+
+    .btn-leilo-subscribe-lite:hover {
+        background-color: #fdfbf4;
+        color: #CD9B00;
+
+        border: solid 5px;
+        border-radius: 30px;
+        transition: ease-in 200ms;
+        transition: ease-out 200ms;
+        border-color: #CD9B00;
+    }
+
+    .btn-leilo-subscribe-sunset {
+        background-color: #8BE0FF;
+        margin-top: 30px;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        width: 250px;
+
+        color: #0879A5;
+        font-family: 'Montserrat', sans-serif; font-weight:600; font-style:normal;
+        font-size: 20px;
+        text-shadow: 0px 0px 0px #0879A5;
+
+        border: solid 5px;
+        border-radius: 30px;
+        margin-top:0px;
+        border-color: #0879A5;
+    }
+
+    .btn-leilo-subscribe-sunset:hover {
+        background-color: #bfeeff;
+        color: #0879A5;
+
+        border: solid 5px;
+        border-radius: 30px;
+        transition: ease-in 200ms;
+        transition: ease-out 200ms;
+        border-color: #0879A5;
+    }
+
+    .btn-leilo-merch {
+        background-color: #6090AA;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        width: 250px;
+
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif; font-weight:600; font-style:normal;
+        font-size: 20px;
+        text-shadow: 0px 2px 4px #557E94;
+
+        border: solid 5px;
+        border-radius: 30px;
+        margin-top:0px;
+    }
+
+    .btn-leilo-merch:hover {
+        background-color: #79D6F2;
+        color: #FFF;
+
+        border: solid 5px;
+        border-radius: 30px;
+        transition: ease-in 200ms;
+        transition: ease-out 200ms;
+    }
+
+    .btn-leilo-tango:hover {
+        background-color: #d4ac96;
+        color: #FFF;
+
+        border: solid 5px;
+        border-radius: 30px;
+        transition: ease-in 200ms;
+        transition: ease-out 200ms;
+    }
+
+    .btn-leilo-login:hover {
+        background-color: #d4ac96;
+        color: #FFF;
+
+        border: solid 5px;
+        border-radius: 30px;
+        transition: ease-in 200ms;
+        transition: ease-out 200ms;
+    }
+
+
+    .btn-mail-signup {
+        float: right;
+        background-color: #FFFFFF;
+
+        padding: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 50px;
+        margin-top: -180px;
+
+        height: 80px;
+        min-width: 230px;
+
+        font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+        font-size: 30px;
+        text-shadow: 0px 2px 4px #68B0C5;
+        color: #68B0C5;
+
+        box-shadow: -10px 10px #68B0C5;
+    }
+    @media screen and (min-width: 40em) and (max-width: 50em) {
+        .btn-mail-signup {
+            float: none;
+            margin-top: -100px;
+            padding: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 30%;
+        }
+    }
+
+    @media screen and (max-width: 40em) {
+        .btn-mail-signup {
+            float: none;
+            margin-top: -100px;
+            padding: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 20%;
+        }
+    }
+    @media screen and (max-width: 23em) {
+        .btn-mail-signup {
+            float: none;
+            margin-top: -100px;
+            padding: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 10%;
+        }
+    }
+
+    @media screen and (max-width: 1200px){
+        .btn-leilo-flavor{
+            width: 200px;
+        }
+    }
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 350px) {
+    .shop-homepage-btn{
+        font-size: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #cans{
+        margin-left: -15px;
+    }
+}
+
+    .btn-mail-signup:hover {
+        background-color: #FFFFFF;
+        color: #68B0C5;
+
+        -webkit-transform: translateY(-2px);
+        transform: translateY(-2px);
+        box-shadow: -10px 12px #68B0C5;
+        transition: ease-in 200ms;
+    }
+

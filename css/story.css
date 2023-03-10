@@ -1,0 +1,335 @@
+html,body {
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #68B0C5;
+    font-family: 'Montserrat', sans-serif; font-weight:900; font-style:bold;
+    font-size: 65px;
+}
+
+h2 {
+    color: #68B0C5;
+    font-family: 'Montserrat', sans-serif; font-weight:600;
+    font-size: 50px;
+}
+
+p {
+    color: #68B0C5;
+    font-family: 'Montserrat', sans-serif; font-weight:600;
+    font-size: 22px;
+}
+
+#header h1 {
+    font-size: 60px;
+}
+
+
+#header {
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+@media screen and (max-width: 45em)  {
+    #header h1 {
+        font-size: 50px;
+    }
+    #header {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+}
+
+@media screen and (max-width: 23em)  {
+    #header h1 {
+        font-size: 40px;
+    }
+    #header {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+}
+
+@media screen and (max-width: 30em)  {
+    #header h1 {
+        font-size: 40px;
+    }
+}
+
+#story {
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(#FFE9A3, #FFFFFF);
+    padding-top: 100px;
+    padding-left: 10%!important;
+    padding-right: 10%!important;
+    padding-bottom: 100px;
+}
+
+#impact {
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(#FFFFFF,#FFE9A3);
+    padding-bottom: 100px;
+}
+
+.container-fluid {
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    margin-right:0px;
+    margin-left:0px
+}
+
+#ourstory {
+    width: 100%;
+}
+
+#storyimage {
+    width: 100%;
+    height: 100%;
+    padding-top: 75px;
+    background-image: linear-gradient(#9de3ed, #e9d16b);
+}
+
+#storypicture {
+    width: 70%;
+    height: 70%;
+}
+
+#nyc-text {
+    font-size: 60px;
+    position: absolute;
+    top: 25vh;
+    right: 10vw;
+}
+
+@media screen and (min-width: 100em)  {
+    #nyc-text {
+    font-size: 120px;
+    top: 15vh;
+    right: 15vw;
+}
+}
+
+@media screen and (min-width: 70em) and (max-width: 100em)  {
+    
+    #nyc-text {
+    font-size: 80px;
+    top: 30vh;
+    right: 15vw;
+}
+}
+
+@media screen and (max-width: 100em)  {
+    #nyc-text {
+    font-size: 70px;
+    top: 25vh;
+    }
+}
+
+@media screen and (max-width: 75em)  {
+    #nyc-text {
+    font-size: 60px;
+    top: 25vh;
+}
+}
+
+@media screen and (max-width: 65em)  {
+    #nyc-text {
+    top: 25vh;
+    font-size: 50px;
+}
+}
+
+@media screen and (max-width: 55em)  {
+    #nyc-text {
+    top: 25vh;
+    font-size: 40px;
+}
+}
+
+@media screen and (max-width: 45em)  {
+    #nyc-text {
+    top: 20vh;
+    font-size: 30px;
+}
+}
+
+@media screen and (max-width: 30em)  {
+    #nyc-text {
+    top: 17vh;
+    right: 10vw;
+    font-size: 20px;
+}
+}
+@media screen and (max-width: 23em)  {
+    #nyc-text {
+    font-size: 18px;
+
+}
+}
+
+
+
+
+
+.impact_links {
+    color: #68B0C5;
+    font-family: 'Montserrat', sans-serif; font-weight:600;
+
+}
+
+img {
+    width: 100%;
+}
+
+.carousel-indicators li {
+  width: 20px!important;
+  height: 20px!important;
+  border-radius: 50%;
+  bottom: -50px;
+}
+
+.carousel-overall {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin:auto;
+}
+
+.carousel-image{
+    /*    position: relative;*/
+    width: 100%;
+    /*height: 100%;*/
+    
+}
+
+.carousel-text {
+  width: 100%;
+  height: 100%;
+  background-color: #CFF4FF;
+  padding-top: 20%;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 20%;
+
+}
+
+
+.carousel-text h2 {
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 23em) {
+    .carousel-text p {
+        font-size: 10px;
+    }
+    .carousel-text {
+        padding-top: 20%;
+        padding-bottom: 20%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .carousel-text h2 {
+    font-size: 20px;
+}
+}
+
+@media screen and (min-width: 23em) and (max-width: 30em) {
+    .carousel-text p {
+        font-size: 13px;
+    }
+    .carousel-text {
+        padding-top: 15%;
+        padding-bottom: 15%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .carousel-text h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 30em) and (max-width: 48em) {
+    .carousel-text p {
+        font-size: 9px;
+    }
+    .carousel-text{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .carousel-text h2 {
+    font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 48em) and (max-width: 52em) {
+    .carousel-text p {
+        font-size: 10px;
+    }
+    .carousel-text{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+}
+@media screen and (min-width: 52em) and (max-width: 58em) {
+    .carousel-text p {
+        font-size: 11px;
+    }
+    .carousel-text{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+}
+@media screen and (min-width: 58em) and (max-width: 65em) {
+    .carousel-text p {
+        font-size: 12px;
+    }
+    .carousel-text{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+}
+@media screen and (min-width: 65em) and (max-width: 75em) {
+    .carousel-text p {
+        font-size: 14px;
+    }
+    .carousel-text{
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+}
+@media screen and (min-width: 75em) and (max-width: 85em)  {
+    .carousel-text p {
+        font-size: 16px;
+    }
+    .carousel-text{
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+}
+@media screen and (min-width: 85em) and (max-width: 95em)  {
+    .carousel-text p {
+        font-size: 18px;
+    }
+    .carousel-text{
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+}
+
+@media screen and (min-width: 95em) and (max-width: 105em)  {
+    .carousel-text p {
+        font-size: 20px;
+    }
+    .carousel-text{
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+}
+
+

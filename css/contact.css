@@ -1,0 +1,170 @@
+html,body {
+    overflow-x: hidden;
+}
+h1 {
+    color: #68B0C5;
+    font-family: 'Montserrat', sans-serif; font-weight:900; font-style:bold;
+    font-size: 65px;
+}
+
+h2 {
+    color: #68B0C5;
+    font-family: 'Montserrat', sans-serif; font-weight:900; font-style:bold;
+    font-size: 45px;
+}
+
+
+p {
+    color: #68B0C5;
+    font-family: 'Montserrat', sans-serif; font-weight:400;
+    font-size: 18px;
+}
+
+#header {
+    padding: 50px;
+    text-align: center;
+}
+
+#contact {
+    background-image: linear-gradient(#FFFFFF, #FFE9A3);
+    padding: 150px; 
+}
+
+#contact-us {
+    width: 100%;
+}
+.container-fluid {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.col {
+    padding: 30px;
+    padding-left: 100px;
+}
+
+.col.left {
+    border-right: solid 1px #68B0C5;
+}
+.email {
+    padding-left: 100px;
+    border-right: solid 1px #68B0C5;
+    text-align: center;
+}
+.contact {
+ padding-left: 100px;
+ text-align: center;
+}
+
+.contact-form {
+    padding: 50px;
+    
+    width: 40vw;
+    min-width: 330px;
+    background-color: #CFF4FF;
+    box-shadow: 0px 5px 8px #68B0C5;
+    height: 350px;
+}
+
+@media screen and (max-width: 48em) {
+    #header h1 {
+        font-size: 45px;
+    }
+    .email h1 {
+        font-size: 45px;
+    }
+    .email {
+        padding-left: 0px;
+        margin-bottom: 20px;
+        border: none;
+        width: 60vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact {
+        padding-left: 0px;
+        text-align: center;
+
+    }
+    .contact-form {
+        width: 400px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (min-width: 48em) and (max-width: 58em) {
+    #header h1 {
+        font-size: 50px;
+    }
+    .email {
+        padding-left: 0px;
+        border-right: solid 1px #68B0C5;
+    }
+    .contact {
+        padding-left: 50px;
+        text-align: center;
+
+    }
+    .contact-form {
+        width: 30vw;
+    }
+}
+@media screen and (min-width: 58em) and (max-width: 73em) {
+    #header h1 {
+        font-size: 50px;
+    }
+    .email {
+        padding-left: 0px;
+        border-right: solid 1px #68B0C5;
+    }
+    .contact-form {
+        width: 35vw;
+    }
+}
+
+
+input {
+    font-family: 'Montserrat', sans-serif; font-weight:500; font-style:normal;
+    font-size: 20px;
+    color: #5a90a0;
+    background-color: #CFF4FF;
+    border: none;
+    border-bottom: 2px solid #68B0C5;
+    outline: none;
+    padding-left: 20px;
+    padding-top: 20px;
+
+    width: 100%;
+}
+
+input.submit {
+    float: right;
+    background-color: #FFFFFF;
+    
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+
+    height: 80px;
+    width: 50%;
+
+    font-family: 'Montserrat', sans-serif; font-weight:700; font-style:normal;
+    font-size: 30px;
+    text-shadow: 0px 2px 2px #68B0C5;
+    color: #68B0C5;
+
+    box-shadow: -10px 10px #68B0C5;
+}
+
+input.submit:hover {
+    background-color: #FFFFFF;
+    color: #68B0C5;
+
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: -10px 12px #68B0C5;
+    transition: ease-in 200ms;
+}
